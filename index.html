@@ -53,6 +53,7 @@
           <li><a class="nav-link scrollto" href="#tabla">Tabla</a></li>
           <li><a class="nav-link scrollto" href="#specials">Importancia</a></li>
           <li><a class="nav-link scrollto" href="#events">Tecnologias</a></li>
+          <li><a class="nav-link scrollto" href="#book-a-table">Formulario</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Galeria IA</a></li>
           <li><a class="nav-link scrollto" href="#chefs">Equipo</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
@@ -68,17 +69,12 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-8" id="inicio">
           <h1>Accesibilidad <span>Web</span></h1>
           <h2>Accesibilidad para todos</h2>
-
-          <div class="btns">
-            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Tabla</a>
-            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Formulario</a>
-          </div>
         </div>
         <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
-          <a href="https://www.youtube.com/watch?v=W1V7oi8UY6w" class="glightbox play-btn"></a>
+          <a href="https://www.youtube.com/watch?v=W1V7oi8UY6w" class="glightbox play-btn" title="Hombre poco atento casi atropella a una persona con discapacidad visual"></a>
         </div>
 
       </div>
@@ -742,11 +738,11 @@ El Sistema de Escucha Asistida es una tecnología diseñada para mejorar la audi
               <div class="row">
                 <div class="col-md-6 form-group">
                   <label for="name_contacto">Nombre Contacto</label>
-                  <input type="text" name="name_contacto" class="form-control" id="name" placeholder="Nombre" required>
+                  <input type="text" name="name_contacto" class="form-control" id="name_contacto" placeholder="Nombre" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <label for="email_contacto">Correo Contacto</label>
-                  <input type="email" class="form-control" name="email_contacto" id="email" placeholder="Correo Electrónico" required>
+                  <input type="email" class="form-control" name="email_contacto" id="email_contacto" placeholder="Correo Electrónico" required>
                 </div>
               </div>
               <div class="form-group mt-3">
@@ -782,7 +778,7 @@ El Sistema de Escucha Asistida es una tecnología diseñada para mejorar la audi
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Restaurantly</h3>
+              <h3>Accesibilidad</h3>
               <p>
                 A108 Adam Street <br>
                 NY 535022, USA<br><br>
@@ -825,8 +821,8 @@ El Sistema de Escucha Asistida es una tecnología diseñada para mejorar la audi
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <label for="email_newsletter">Para recibir novedades</label>
-            <form action="" method="post">
-              <input type="email" name="email_newsletter"><input type="submit" value="Subscribe">
+            <form action="" method="post" id="email_newsletter">
+              <input type="email" name="email_newsletter" id="email_newsletter"><input type="submit" value="Subscribe">
             </form>
 
           </div>
